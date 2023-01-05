@@ -1,23 +1,14 @@
+import { Heading, Stack } from "@chakra-ui/react";
 import React from "react";
 
 const CalculatorSection = () => {
 
-    const addsTwoTogether = (a: number, b:number) => {
-        return a + b
-    }
-
     return ( 
         <div>
-            <form>
-            <label>
-                first number:
-                <input type="text" name="first-number" />
-            </label>
-            <label>
-                second number:
-                <input type="text" name="second-number" />
-            </label>
-            </form>
+            <Stack>
+                <Heading as='h1' size='4xl'>Heading one</Heading>
+                <Heading as='h2' size='2xl'>Heading two</Heading>
+            </Stack>
         </div>
      );
 }
